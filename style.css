@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #29303B;
+    color: white;
+}
+
+.wrapper h1 {
+    margin: 20px auto 0px auto;
+    font-size: 36px;
+}
+
+.wrapper p {
+    margin: 10px auto 20px auto;
+    font-weight: 200;
+    font-size: 26px;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    border: 2px solid #1c232d;
+    box-shadow: 10px 5px 5px #1c232d;
+    border-radius: 5px;
+    background: linear-gradient(#393c41, #333D46);
+    text-align: center;
+}
+.app-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-left, .section-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.swap{
+    align-self: flex-end;
+    margin-bottom: 15px;
+    padding: 5px 50px;
+    border-radius: 25px;
+    background: linear-gradient(120deg,#336e96, #43ac8c);
+    cursor: pointer;
+    outline: none;
+}
+swap:focus {
+    outline: none;
+}
+input {
+    margin-bottom: 10px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: white;
+    text-align: center;
+}
+.app-body input, .app-body select {
+    padding: 10px 20px;
+    font-size: 36px;
+    color: white;
+    border: none;
+
+}
+.app-body input:focus, .app-body select:focus {
+    outline: none;
+    color: rgb(67, 171, 255);
+}
+
+.app-body select{
+    font-size: 36px;
+    cursor: pointer;
+    background: #393c41;
+}
+option {
+    background: #393c41;
+    color: #333;
+}
